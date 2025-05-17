@@ -2,6 +2,6 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-{}
-
-MainWindow::~MainWindow() {}
+{
+    setFixedSize(QSize(640, 480));
+}
